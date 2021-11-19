@@ -1,7 +1,7 @@
 {
-    "name": "corebot",
+    "name": "Ice Dev Server Bot",
     "version": "4.4.4",
-    "description": "Corebot",
+    "description": "Ice Dev Server Bot",
     "main": "index.js",
     "scripts": {
         "start": "node . --no-install"
