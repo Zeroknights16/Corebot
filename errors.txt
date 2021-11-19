@@ -1,0 +1,253 @@
+[CALLER: Promise {
+  <rejected> TypeError: Cannot read property 'Enabled' of undefined
+      at /home/container/modules/methods/getMissingRolesAndChannels.js:70:37
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+} | MS: 1618969391795 | DATE: 4/20/2021, 9:43:11 PM]
+------------------------------------------------------
+TypeError: Cannot read property 'Enabled' of undefined
+EXTRA INFO:
+Unknown
+------------------------------------------------------
+[CALLER: [as | MS: 1622514923212 | DATE: 5/31/2021, 10:35:23 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622514949047 | DATE: 5/31/2021, 10:35:49 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622515013991 | DATE: 5/31/2021, 10:36:53 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622515454436 | DATE: 5/31/2021, 10:44:14 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622515463945 | DATE: 5/31/2021, 10:44:23 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622515541657 | DATE: 5/31/2021, 10:45:41 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: [as | MS: 1622515820326 | DATE: 5/31/2021, 10:50:20 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (A:\20-29 Software\26 Discord Bots\Reg\addons\MessageManager.js:1:41190)
+      at Object.set (A:\20-29 Software\26 Discord Bots\Reg\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+}
+----------------------------------------------------
+[CALLER: index.js:192:3 | MS: 1622575094149 | DATE: 6/1/2021, 9:18:14 PM]
+-------------------------------------
+ReferenceError: client is not defined
+EXTRA INFO:
+Promise {
+  <rejected> ReferenceError: client is not defined
+      at C:\Users\tolba\Desktop\Core Bot\index.js:192:3
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+-------------------------------------
+[CALLER: AddonHandler.js:123:44 | MS: 1622575097776 | DATE: 6/1/2021, 9:18:17 PM]
+--------------------------------------------------------------------
+Cannot find module 'ytdl-core'
+Require stack:
+- C:\Users\tolba\Desktop\Core Bot\addons\music.js
+- C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js
+- C:\Users\tolba\Desktop\Core Bot\commands\management\addon.js
+- C:\Users\tolba\Desktop\Core Bot\modules\handlers\CommandHandler.js
+- C:\Users\tolba\Desktop\Core Bot\index.js
+EXTRA INFO:
+Error: Cannot find module 'ytdl-core'
+Require stack:
+- C:\Users\tolba\Desktop\Core Bot\addons\music.js
+- C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js
+- C:\Users\tolba\Desktop\Core Bot\commands\management\addon.js
+- C:\Users\tolba\Desktop\Core Bot\modules\handlers\CommandHandler.js
+- C:\Users\tolba\Desktop\Core Bot\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:885:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:27)
+    at Module.require (internal/modules/cjs/loader.js:957:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\tolba\Desktop\Core Bot\addons\music.js:5:14)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Module.require (internal/modules/cjs/loader.js:957:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js:112:35
+    at Array.forEach (<anonymous>)
+    at C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js:110:18
+    at FSReqCallback.oncomplete (fs.js:180:23)
+--------------------------------------------------------------------
+[CALLER: [as | MS: 1622575098064 | DATE: 6/1/2021, 9:18:18 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (C:\Users\tolba\Desktop\Core Bot\addons\MessageManager.js:1:41190)
+      at Object.set (C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+----------------------------------------------------
+[CALLER: index.js:192:3 | MS: 1622580154913 | DATE: 6/1/2021, 10:42:34 PM]
+-------------------------------------
+ReferenceError: client is not defined
+EXTRA INFO:
+Promise {
+  <rejected> ReferenceError: client is not defined
+      at C:\Users\tolba\Desktop\Core Bot\index.js:192:3
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+-------------------------------------
+[CALLER: [as | MS: 1622580158092 | DATE: 6/1/2021, 10:42:38 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (C:\Users\tolba\Desktop\Core Bot\addons\MessageManager.js:1:41190)
+      at Object.set (C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+----------------------------------------------------
+[CALLER: index.js:192:3 | MS: 1622583483643 | DATE: 6/1/2021, 11:38:03 PM]
+-------------------------------------
+ReferenceError: client is not defined
+EXTRA INFO:
+Promise {
+  <rejected> ReferenceError: client is not defined
+      at C:\Users\tolba\Desktop\Core Bot\index.js:192:3
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+-------------------------------------
+[CALLER: [as | MS: 1622583487343 | DATE: 6/1/2021, 11:38:07 PM]
+----------------------------------------------------
+TypeError: Cannot read property 'Clear' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'Clear' of undefined
+      at Object.module.<computed> [as run] (C:\Users\tolba\Desktop\Core Bot\addons\MessageManager.js:1:41190)
+      at Object.set (C:\Users\tolba\Desktop\Core Bot\modules\handlers\AddonHandler.js:75:23)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+----------------------------------------------------
+[CALLER: Core | MS: 1622583488460 | DATE: 6/1/2021, 11:38:08 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622583493455 | DATE: 6/1/2021, 11:38:13 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622583640379 | DATE: 6/1/2021, 11:40:40 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622583651787 | DATE: 6/1/2021, 11:40:51 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622583779643 | DATE: 6/1/2021, 11:42:59 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622584392484 | DATE: 6/1/2021, 11:53:12 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------
+[CALLER: Core | MS: 1622584405005 | DATE: 6/1/2021, 11:53:25 PM]
+---------------------------------------------------------
+TypeError: Cannot read property 'PerMessage' of undefined
+EXTRA INFO:
+Promise {
+  <rejected> TypeError: Cannot read property 'PerMessage' of undefined
+      at module.exports (C:\Users\tolba\Desktop\Core Bot\events\message.js:247:85)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+}
+---------------------------------------------------------

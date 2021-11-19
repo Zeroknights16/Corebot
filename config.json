@@ -1,0 +1,8 @@
+{
+    "message": "New video **{videoTitle}** by **{videoAuthorName}** uploaded at **{videoPubDate}**! Link: {videoURL}",
+    "channel": "849367709639507970",
+    "youtubers": [
+        "https://www.youtube.com/channel/UCA5qRK06Zdrx8-A_vRKPBOg"
+    ],
+    "youtubeKey": "AIzaSyDVdghuL3yc0_GYdGXNs0YtLFYpOySUUIU"
+}
