@@ -1,11 +1,11 @@
 ########################################
 #                                      #
-#            COREBOT CONFIG            #
+#              BOT CONFIG              #
 #                                      #
 ########################################
 
-Token: "ODE3MjIwNTQxMDYwMDg3ODU4.YEGV8A.uwlsPwOlo6jxOzMQlsmJWQAl-Pw"
-Key: "47e230c1-d48d-464d-b66f-9a5f33dabe3c"
+Token: ""
+Key: ""
 Prefix: "~"
 
 ########################################
@@ -590,5 +590,5 @@ Other:
         DiscordEmoji: ":tada:"
         UnicodeEmoji: "🎉"
 
-# Do not change this unless told to do so by a Corebot 🌀Moderator ⭐Member.
+# Do not change this.
 BotVersion: "4.4.4"
