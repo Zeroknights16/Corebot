@@ -1,0 +1,204 @@
+Animu:
+  Hug: true
+  Wink: true
+  Pat: true
+  Slap: true
+  Kiss: true
+  Smug: true
+  Lick: true
+  Cuddle: true
+  FacePalm: true
+HelpCommand:
+  Enabled: true
+  Fields:
+    Animu:
+      Smug:
+        Title: 😓 Smug
+        Description: Smug at a user!
+        Usage: -smug <@user>
+      Hug:
+        Title: 🤗 Hug
+        Description: Hug a user!
+        Usage: -hug <@user>
+      Wink:
+        Title: 😉 Wink
+        Description: Wink at a user!
+        Usage: -wink <@user>
+      Pat:
+        Title: Pat
+        Description: Pat a user!
+        Usage: -pat <@user>
+      Slap:
+        Title: 🖐️ Slap
+        Description: Slap a user!
+        Usage: -slap <@user>
+      Kiss:
+        Title: 👨‍❤️‍💋‍👨 Kiss
+        Description: Kiss a user!
+        Usage: -kiss <@user>
+      Lick:
+        Title: 👅 Lick
+        Description: Lick a user!
+        Usage: -lick <@user>
+      Cuddle:
+        Title: 🙆‍♂️ Cuddle
+        Description: Cuddle a user!
+        Usage: -cuddle <@user>
+      FacePalm:
+        Title: 🤦‍♂️ FacePalm
+        Description: Facepalm at a user!
+        Usage: -facepalm <@user>
+Embeds:
+  Smug:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `smug <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Smug
+      Description: "**{author} Smugged {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Hug:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `hug <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Hug
+      Description: "**{author} Hugged {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Wink:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `wink <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Wink
+      Description: "**{author} Winked at {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Pat:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `pat <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Pat
+      Description: "**{author} Patted {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Slap:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `slap <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Slap
+      Description: "**{author} Slaped {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Kiss:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `kiss <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Kiss
+      Description: "**{author} Kissed {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Lick:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `lick <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Lick
+      Description: "**{author} Licked {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  Cuddle:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `cuddle <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Cuddle
+      Description: "**{author} Cuddled {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"
+  FacePalm:
+    Invaid:
+      Title: Invalid Arguments
+      Description: "Usage: `facepalm <@user>`"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Author:
+      Title: Duh..
+      Description: You can't do this to yourself
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+    Valid:
+      Title: Cuddle
+      Description: "**{author} Facepalmed at  {tagged-person}!**"
+      Footer: "Requested by: {user-tag}"
+      Color: 2F3136
+      Image: "{image}"

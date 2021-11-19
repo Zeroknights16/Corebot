@@ -1,0 +1,61 @@
+RequiredRole: "@everyone"
+# Command
+Command: animequote
+Description: Send anime quote
+Usage: "`animequote <Argument>`"
+Aliases:
+  - animeq
+  - aq
+# Embed messages
+Embeds:
+  Help:
+    Title: Anime Quote - Help menu
+    Description: |-
+      **-animequote help** - show this menu
+      **-animequote random** - send random quote
+      **-animequote character <character_name>** - send quote by character
+      **-animequote anime <anime_name>** - send quote by anime
+    Footer: "Requested by: {Requestedby}"
+    FooterIcon: "{author-pfp}"
+  RandomQ:
+    Title: Random Anime Quote
+    Thumbnail: "{characterPic}"
+    Fields:
+      - name: 🎞️ Anime
+        value: "```{anime}```"
+        inline: true
+      - name: 🎭 Character
+        value: "```{character}```"
+        inline: true
+      - name: 💭 Quote
+        value: "```{quote}```"
+        inline: false
+    Footer: "Requested by: {Requestedby}"
+    FooterIcon: "{author-pfp}"
+  CharacterQ:
+    Title: Random quote by anime character -> {character}
+    Thumbnail: "{characterPic}"
+    Fields:
+      - name: 🎞️ Anime
+        value: "```{anime}```"
+        inline: true
+      - name: 💭 Quote
+        value: "```{quote}```"
+        inline: false
+    Footer: "Requested by: {Requestedby}"
+    FooterIcon: "{author-pfp}"
+  AnimeQ:
+    Title: Random quote by anime -> {anime}
+    Thumbnail: "{characterPic}"
+    Fields:
+      - name: 🎭 Character
+        value: "```{character}```"
+        inline: true
+      - name: 💭 Quote
+        value: "```{quote}```"
+        inline: false
+    Footer: "Requested by: {Requestedby}"
+    FooterIcon: "{author-pfp}"
+  Errors:
+    AnimeMissingInDB:
+      Title: Anime missing in Database

@@ -1,0 +1,11 @@
+Prefix: $
+PingMessage: "{pingedUser}, {author} has mentioned you read this"
+Rules:
+  - Title: Best Discord bot | Corebot
+    Description: |-
+      **Purchase Here**
+      > https://corebot.dev/mcm
+    Footer: "Requested by: {user-displayname}"
+  - Title: WikiX Addon | Corebot
+    Description: WikiX Addon Made by @Zorino#1110
+    Footer: "Requested by: {user-displayname}"

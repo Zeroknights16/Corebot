@@ -1,0 +1,9 @@
+DeletingMessages:
+  Author: 🔄 Deleting Messages.... This could take a minute.
+  color: "#D64F4F"
+NoMessagesToDelete:
+  Author: There are no messages in the channel that matches your requirements
+  color: "#D64F4F"
+InvalidNumber:
+  Author: Clear amount cant be over 100 or less than 1!
+  color: "#D64F4F"

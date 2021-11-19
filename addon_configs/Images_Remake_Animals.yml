@@ -1,0 +1,156 @@
+AnimalsCommands:
+  Cat: true
+  Dog: true
+  Bird: true
+  Panda: true
+  Koala: true
+  Fox: true
+  Kangaroo: true
+  Raccoon: true
+  Elephant: true
+  Giraffe: true
+  Whale: true
+HelpCommand:
+  Enabled: true
+  Fields:
+    Animals:
+      Cat:
+        Title: 🐱 Cat
+        Description: Sends a picture of an Cat & fact about Cats
+        Usage: cat
+      Dog:
+        Title: 🐶 Dog
+        Description: Sends a picture of an Dog & fact about Dogs
+        Usage: dog
+      Bird:
+        Title: 🐦 Bird
+        Description: Sends a picture of an Bird & fact about Bird
+        Usage: bird
+      Panda:
+        Title: 🐼 Panda
+        Description: Sends a picture of an Panda & fact about Panda
+        Usage: panda
+      Koala:
+        Title: 🐨 Koala
+        Description: Sends a picture of an Koala & fact about Koala
+        Usage: koala
+      Fox:
+        Title: 🦊 Fox
+        Description: Sends a picture of an Fox & fact about Fox
+        Usage: fox
+      Kangaroo:
+        Title: ":kangaroo: Kangaroo"
+        Description: Sends a picture of an Kangaroo & fact about Kangaroo
+        Usage: kangaroo
+      Raccoon:
+        Title: ":raccoon: Raccoon"
+        Description: Sends a picture of an Raccoon & fact about CaRaccoonts
+        Usage: raccoon
+      Elephant:
+        Title: 🐘 Elephant
+        Description: Sends a Fact about Elephant
+        Usage: elephant
+      Giraffe:
+        Title: 🦒 Giraffe
+        Description: Sends a Fact about Giraffe
+        Usage: giraffe
+      Whale:
+        Title: 🐋 Whale
+        Description: Sends a picture of an Whale & fact about Whale
+        Usage: whale
+Embeds:
+  Cat:
+    Title: Cat fact & Cat image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Dog:
+    Title: Dog fact & Dog image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Bird:
+    Title: Bird fact & Bird image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Panda:
+    Title: Panda fact & Panda image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Koala:
+    Title: Koala fact & Koala image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Fox:
+    Title: Fox fact & Fox image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Kangaroo:
+    Title: Kangaroo fact & Kangaroo image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Raccoon:
+    Title: Raccoon fact & Raccoon image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Elephant:
+    Title: Elephant fact
+    Description: |-
+      **Fact**
+      > {fact}
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Giraffe:
+    Title: Giraffe fact
+    Description: |-
+      **Fact**
+      > {fact}
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136
+  Whale:
+    Title: Whale fact & Whale image
+    Description: |-
+      **Fact**
+      > {fact}
+
+      **Image**
+    Footer: "Requested by: {user-tag}"
+    Color: 2F3136

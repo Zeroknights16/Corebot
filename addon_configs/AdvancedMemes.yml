@@ -1,0 +1,57 @@
+RequiredRole: "@everyone"
+# What role is required to run the meme command?
+AllowNsfw: true
+# Should posts that are rated 18+ be allowed
+SubReddit:
+  Type: fixed
+  # Used when a user doesnt define a subreddit or
+  # AllowCustomSubreddits is set to false (Fixed/Random)
+  AllowCustomSubreddits: true
+  # Should users be able to define what subreddit?
+  Default: dankmemes
+  # What subreddit do you want to use if 
+  # AllowCustomSubReddits is false and Type is set to Fixed
+  Limit: 20
+  # How many memes should be grabbed at once? Higher numbers may cause lag
+  BlackListed:
+    - example1
+    - example2
+    - example3
+  # List of blacklisted subreddits
+  RandomSubReddits:
+    - dankmemes
+    - memes
+    - wholesomememes
+    - raimimemes
+    - memeeconomy
+    - metal_me_irl
+  # List of random subreddits, only used if Type is set to Random
+AutoPost:
+  Enabled: false
+  # Should autoposting memes be enabled
+  Type: Random
+  # What subreddit type should be used (Fixed/Random)
+  Interval: 60000
+  # Time in milliseconds
+  Guild:
+    Id: "678289470642061323"
+    # What is the id for the guild where memes are posted
+    Channel: AutoMemes
+    # What is the name of the channel to which memes are posted in
+Embeds:
+  Success:
+    MemeEmbed:
+      Title: "{title}"
+      URL: "{url}"
+      Image: "{image}"
+      Footer: 👍 {ups} | 💬 {comments} ({category})
+      # Global vars are {title}, {url}, {ups}, {comments}, {category}, {image}
+      Color: "#4FD67E"
+  Errors:
+    ErrorFetching:
+      Description: There was an error fetching memes from this subreddit. Please try
+        another subreddit
+      Color: "#D64F4F"
+    PrivateCategory:
+      Description: This category is private. Please try another category
+      Color: "#D64F4F"

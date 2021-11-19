@@ -1,0 +1,106 @@
+TranslateRequiredRole: "@everyone"
+TuserRequiredRole: admin
+LanguagesRequestedRole: "@everyone"
+TchannelRequiredRole: admin
+LanguagesPerPage: 10
+DeleteMessageOnTranslation: true
+Abbreviations:
+  gr: greek
+# Add custom abbreviations for languages
+# The formating is as followes
+# Abbreviation:Language
+# The language must be spelled correctly
+# google translate must be able to recognize it.
+EmojiReaction:
+  Enabled: true
+  RequiredRole: "@everyone"
+  BlacklistedUsers:
+    - userId1
+    - userId2
+  # User Ids must be strings
+  Emojis:
+    🇺🇸: english
+    🇪🇸: Spanish
+    🇲🇽: Spanish
+    🇨🇳: Chinese (Simplified)
+    🇮🇳: Hindi
+    🍔: english
+  # Find flag emojis here
+  # https://emojipedia.org/search/
+AutoTranslationDetectionThreshold: 0.1
+# Raise this if automatic translations arent detecting.
+Embeds:
+  Success:
+    TranslatedMsg:
+      Author: "{user-username}"
+      AuthorIcon: "{user-pfp}"
+      Description: "{message}"
+      Footer: "{new-lang} ({new-lang-iso}) → {old-lang} ({old-lang-iso})"
+      FooterIcon: "{user-pfp}"
+    Languages:
+      Title: Current languages for Google Translate Api (Page {curPage}/{maxPages})
+      Description: "{languages}"
+      Footer: "{langCount} supported languages"
+    ChannelCreated:
+      Title: New Translation Channel!
+      Description: The channel <#{channel}> will not automatically translate to
+        ``{language}``
+    ActiveChannels:
+      Title: Current Translation Channels
+      Description: "{channels}"
+    ChannelDeleted:
+      Title: Translation Channel Deleted
+      Description: The channel <#{channel}> is no longer a translation channel.
+    ChannelInfo:
+      Title: Translation Channel Details
+      Fields:
+        - name: Status
+          value: "``{status}``"
+          inline: true
+        - name: Language
+          value: "``{language}``"
+          inline: true
+    UserCreated:
+      Title: New Auto Translation User!
+      Description: The user <@{user}> will not automatically translate to ``{language}``
+    UserInfo:
+      Title: User Translation Details
+      Fields:
+        - name: Status
+          value: "``{status}``"
+          inline: true
+        - name: Language
+          value: "``{language}``"
+          inline: true
+    UserDeleted:
+      Title: User Translation Deleted
+      Description: The user <@{user}> is no longer being automatically translated.
+    ActiveUsers:
+      Title: Current User Translations
+      Description: "{users}"
+  Errors:
+    ErrorTranslating:
+      Title: Error
+      Description: |-
+        `There was an error preforming this action. 
+        ``{error}``
+    InvalidLanguage:
+      Title: Invalid Language
+      Description: Please try using another language. View available languages with
+        ``{prefix}languages``
+    InvalidChannel:
+      Title: Invalid Channel
+      Description: There was a problem fetching the channel with that id. View
+        available channels with ``~tchannel list``
+    NoActiveChannels:
+      Title: No translation Channels
+      Description: There are currently no active translation channels. Make one with
+        ``~tchannel set``
+    NoActiveUsers:
+      Title: No user translation
+      Description: There are currently no active user translations. Make one with
+        ``~tuser set``
+    InvalidUser:
+      Title: Invalid User
+      Description: There was a problem fetching the user with that id. View available
+        channels with ``~tuser list``
